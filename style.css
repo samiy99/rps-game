@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+
+body {
+    background-color: #021216;
+
+}
+
+
+.head {
+    text-align: center;
+    padding: 12px;
+    background-color: #fff;
+
+}
+
+h1 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.main {
+
+    color: #fff;
+
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.scoreboard {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    height: 70px;
+    padding: 14px 15px;
+}
+
+.card {
+    background-color: #be5d5d;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 11px;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.main #playercard {
+    left: -30px;
+    top: 20px;
+}
+
+.main #compcard {
+    right: -27px;
+    top: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 20px;
+
+}
+
+.choices {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.choice {
+    border: 1px solid #fff;
+    border-radius: 90%;
+    margin: 0 10px;
+    padding: 6px;
+}
+
+.choice img {
+    width: 50px;
+
+}
+
+.reset_btn {
+
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    margin-top: 40px;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.instruction {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+
+.over100 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.glow {
+    border: 1px solid #67c0ca;
+}
+
+.dark {
+    border: 1px solid #b60707;
+}
+
+.draw {
+
+    border: 1px solid #2b3c41;
+}
